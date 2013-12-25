@@ -12,6 +12,8 @@ namespace TestClient
             Console.WriteLine(client.GetData(int.Parse(Console.ReadLine())));
 
             client.Close();
+
+            Console.ReadLine();
         }
     }
 }
