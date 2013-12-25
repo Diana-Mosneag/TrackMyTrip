@@ -14,6 +14,7 @@ namespace TestClient
             client.Close();
 
             Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
